@@ -31,4 +31,4 @@ class CarModelAdmin(admin.ModelAdmin):
 
 @admin.register(CarModelInstance)
 class CarModelInstanceAdmin(admin.ModelAdmin):
-    fields = ['car']
+    fields = ['car','status']

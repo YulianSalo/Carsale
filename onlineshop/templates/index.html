@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}<title>Home</title>{% endblock %}
+{% block main_body %}
+<div class="container">
+        <p>The shop has the following record counts:</p>
+        <ul>
+          <li><strong>Brands:</strong> {{ num_car_brands }}</li>
+          <li><strong>Car Model:</strong> {{ num_car_models }}</li>
+          <li><strong>Cars available:</strong> {{ num_car_instances_available }}</li>
+        </ul>
+</div>
+{% endblock %}

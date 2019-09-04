@@ -55,7 +55,7 @@ class CarModelInstance(models.Model):
 
     PURCHASE_STATUS = (
         ('a', 'Available'),
-        ('s', 'Sold Out'),
+        ('s', 'Sold'),
     )
 
     status = models.CharField(
